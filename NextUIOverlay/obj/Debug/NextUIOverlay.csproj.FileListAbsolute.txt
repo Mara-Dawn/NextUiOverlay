@@ -1,0 +1,15 @@
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\NextUIOverlay.json
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\NextUIOverlay.deps.json
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\NextUIOverlay.dll
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\NextUIOverlay.pdb
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\Fleck.dll
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\System.Reactive.dll
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\bin\Debug\Xilium.CefGlue.dll
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.csproj.AssemblyReference.cache
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.GeneratedMSBuildEditorConfig.editorconfig
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.AssemblyInfoInputs.cache
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.AssemblyInfo.cs
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.csproj.CoreCompileInputs.cache
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOv.BE984D0C.Up2Date
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.dll
+E:\dev\ffxiv\NextUIOverlay\NextUIOverlay\obj\Debug\NextUIOverlay.pdb

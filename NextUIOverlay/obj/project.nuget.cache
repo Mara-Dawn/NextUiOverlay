@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "eERHgYGAhdE=",
+  "success": true,
+  "projectFilePath": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kij\\.nuget\\packages\\dalamudpackager\\11.0.0\\dalamudpackager.11.0.0.nupkg.sha512",
+    "C:\\Users\\kij\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512",
+    "C:\\Users\\kij\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
