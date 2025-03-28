@@ -1,7 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Dalamud.NET.Sdk/12.0.2">
     <PropertyGroup Label="Target">
         <PlatformTarget>x64</PlatformTarget>
-        <TargetFramework>net8.0-windows</TargetFramework>
+        <TargetFramework>net9.0-windows</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Platforms>x64</Platforms>
         <Configurations>Debug;Release</Configurations>
@@ -46,8 +46,8 @@
     <PropertyGroup>
         <DalamudVersion>dev</DalamudVersion>
         <DalamudLocal>../dalamud/</DalamudLocal>
-        <DalamudXIVLauncher>$(APPDATA)\XIVLauncher\addon\Hooks\$(DalamudVersion)</DalamudXIVLauncher>
-        <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+        <DalamudXIVLauncher>/home/mara/.xlcore/dalamud/Hooks/$(DalamudVersion)</DalamudXIVLauncher>
+        <DalamudLibPath>/home/mara/.xlcore/dalamud/Hooks/dev/</DalamudLibPath>
     </PropertyGroup>
 
     <!-- Assembly Reference Locations -->
@@ -67,18 +67,6 @@
 
     <!-- Library References -->
     <ItemGroup>
-        <Reference Include="Dalamud">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Newtonsoft.Json">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="ImGui.NET">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="ImGuiScene">
-            <Private>false</Private>
-        </Reference>
         <Reference Include="Serilog">
             <Private>false</Private>
         </Reference>
@@ -91,16 +79,7 @@
         <Reference Include="SharpDX.DXGI">
             <Private>false</Private>
         </Reference>
-        <Reference Include="FFXIVClientStructs">
-            <Private>false</Private>
-        </Reference>
         <Reference Include="InteropGenerator.Runtime">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Lumina">
-            <Private>false</Private>
-        </Reference>
-        <Reference Include="Lumina.Excel">
             <Private>false</Private>
         </Reference>
         <Reference Include="Xilium.CefGlue">
@@ -110,7 +89,7 @@
 
     <!-- NuGet Packages -->
     <ItemGroup>
-        <PackageReference Include="DalamudPackager" Version="11.0.0" />
+        <PackageReference Include="DalamudPackager" Version="12.0.0" />
         <PackageReference Include="Fleck" Version="1.2.0" />
         <PackageReference Include="System.Reactive" Version="5.0.0" />
     </ItemGroup>

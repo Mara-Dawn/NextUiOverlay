@@ -1,8 +1,8 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
-      "DalamudPackager/11.0.0": {
+    "net9.0-windows7.0": {
+      "DalamudPackager/12.0.0": {
         "type": "package",
         "build": {
           "build/DalamudPackager.props": {},
@@ -10,6 +10,17 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/DalamudPackager.props": {}
+        }
+      },
+      "DotNet.ReproducibleBuilds/1.2.25": {
+        "type": "package",
+        "build": {
+          "buildTransitive/DotNet.ReproducibleBuilds.props": {},
+          "buildTransitive/DotNet.ReproducibleBuilds.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/DotNet.ReproducibleBuilds.props": {},
+          "buildMultiTargeting/DotNet.ReproducibleBuilds.targets": {}
         }
       },
       "Fleck/1.2.0": {
@@ -38,8 +49,8 @@
         }
       }
     },
-    "net8.0-windows7.0/win-x64": {
-      "DalamudPackager/11.0.0": {
+    "net9.0-windows7.0/win-x64": {
+      "DalamudPackager/12.0.0": {
         "type": "package",
         "build": {
           "build/DalamudPackager.props": {},
@@ -47,6 +58,17 @@
         },
         "buildMultiTargeting": {
           "buildMultiTargeting/DalamudPackager.props": {}
+        }
+      },
+      "DotNet.ReproducibleBuilds/1.2.25": {
+        "type": "package",
+        "build": {
+          "buildTransitive/DotNet.ReproducibleBuilds.props": {},
+          "buildTransitive/DotNet.ReproducibleBuilds.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/DotNet.ReproducibleBuilds.props": {},
+          "buildMultiTargeting/DotNet.ReproducibleBuilds.targets": {}
         }
       },
       "Fleck/1.2.0": {
@@ -77,17 +99,17 @@
     }
   },
   "libraries": {
-    "DalamudPackager/11.0.0": {
-      "sha512": "bjT7XUlhIJSmsE/O76b7weUX+evvGQctbQB8aKXt94o+oPWxHpCepxAGMs7Thow3AzCyqWs7cOpp9/2wcgRRQA==",
+    "DalamudPackager/12.0.0": {
+      "sha512": "J5TJLV3f16T/E2H2P17ClWjtfEBPpq3yxvqW46eN36JCm6wR+EaoaYkqG9Rm5sHqs3/nK/vKjWWyvEs/jhKoXw==",
       "type": "package",
-      "path": "dalamudpackager/11.0.0",
+      "path": "dalamudpackager/12.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "build/DalamudPackager.props",
         "build/DalamudPackager.targets",
         "buildMultiTargeting/DalamudPackager.props",
-        "dalamudpackager.11.0.0.nupkg.sha512",
+        "dalamudpackager.12.0.0.nupkg.sha512",
         "dalamudpackager.nuspec",
         "tasks/net48/DalamudPackager.dll",
         "tasks/net48/Newtonsoft.Json.dll",
@@ -95,6 +117,24 @@
         "tasks/netstandard2.1/DalamudPackager.dll",
         "tasks/netstandard2.1/Newtonsoft.Json.dll",
         "tasks/netstandard2.1/YamlDotNet.dll"
+      ]
+    },
+    "DotNet.ReproducibleBuilds/1.2.25": {
+      "sha512": "xCXiw7BCxHJ8pF6wPepRUddlh2dlQlbr81gXA72hdk4FLHkKXas7EH/n+fk5UCA/YfMqG1Z6XaPiUjDbUNBUzg==",
+      "type": "package",
+      "path": "dotnet.reproduciblebuilds/1.2.25",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "build/DotNet.ReproducibleBuilds.props",
+        "build/DotNet.ReproducibleBuilds.targets",
+        "buildMultiTargeting/DotNet.ReproducibleBuilds.props",
+        "buildMultiTargeting/DotNet.ReproducibleBuilds.targets",
+        "buildTransitive/DotNet.ReproducibleBuilds.props",
+        "buildTransitive/DotNet.ReproducibleBuilds.targets",
+        "dotnet.reproduciblebuilds.1.2.25.nupkg.sha512",
+        "dotnet.reproduciblebuilds.nuspec"
       ]
     },
     "Fleck/1.2.0": {
@@ -143,37 +183,37 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": [
-      "DalamudPackager >= 11.0.0",
+    "net9.0-windows7.0": [
+      "DalamudPackager >= 12.0.0",
+      "DotNet.ReproducibleBuilds >= 1.2.25",
       "Fleck >= 1.2.0",
       "System.Reactive >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kij\\.nuget\\packages\\": {}
+    "/home/mara/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj",
+      "projectUniqueName": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj",
       "projectName": "NextUIOverlay",
-      "projectPath": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj",
-      "packagesPath": "C:\\Users\\kij\\.nuget\\packages\\",
-      "outputPath": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\obj\\",
+      "projectPath": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj",
+      "packagesPath": "/home/mara/.nuget/packages/",
+      "outputPath": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/obj/",
       "projectStyle": "PackageReference",
-      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\kij\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/mara/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0-windows"
+        "net9.0-windows"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "projectReferences": {}
         }
       },
@@ -183,22 +223,27 @@
         ]
       },
       "restoreLockProperties": {
-        "restorePackagesWithLockFile": "true",
-        "nuGetLockFilePath": ""
+        "restorePackagesWithLockFile": "true"
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
-      "net8.0-windows7.0": {
-        "targetAlias": "net8.0-windows",
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
         "dependencies": {
           "DalamudPackager": {
             "target": "Package",
-            "version": "[11.0.0, )"
+            "version": "[12.0.0, )"
+          },
+          "DotNet.ReproducibleBuilds": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[1.2.25, )"
           },
           "Fleck": {
             "target": "Package",
@@ -220,12 +265,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[9.0.3, 9.0.3]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

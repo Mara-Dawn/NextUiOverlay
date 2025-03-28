@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "eERHgYGAhdE=",
+  "dgSpecHash": "Egw1HpX8YTg=",
   "success": true,
-  "projectFilePath": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj",
+  "projectFilePath": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kij\\.nuget\\packages\\dalamudpackager\\11.0.0\\dalamudpackager.11.0.0.nupkg.sha512",
-    "C:\\Users\\kij\\.nuget\\packages\\fleck\\1.2.0\\fleck.1.2.0.nupkg.sha512",
-    "C:\\Users\\kij\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512"
+    "/home/mara/.nuget/packages/dalamudpackager/12.0.0/dalamudpackager.12.0.0.nupkg.sha512",
+    "/home/mara/.nuget/packages/dotnet.reproduciblebuilds/1.2.25/dotnet.reproduciblebuilds.1.2.25.nupkg.sha512",
+    "/home/mara/.nuget/packages/fleck/1.2.0/fleck.1.2.0.nupkg.sha512",
+    "/home/mara/.nuget/packages/system.reactive/5.0.0/system.reactive.5.0.0.nupkg.sha512",
+    "/home/mara/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.3/microsoft.aspnetcore.app.ref.9.0.3.nupkg.sha512"
   ],
   "logs": []
 }

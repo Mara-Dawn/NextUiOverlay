@@ -1,31 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj": {}
+    "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj": {}
   },
   "projects": {
-    "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj": {
+    "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj",
+        "projectUniqueName": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj",
         "projectName": "NextUIOverlay",
-        "projectPath": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\NextUIOverlay.csproj",
-        "packagesPath": "C:\\Users\\kij\\.nuget\\packages\\",
-        "outputPath": "E:\\dev\\ffxiv\\NextUIOverlay\\NextUIOverlay\\obj\\",
+        "projectPath": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/NextUIOverlay.csproj",
+        "packagesPath": "/home/mara/.nuget/packages/",
+        "outputPath": "/home/mara/Repositories/NextUIOverlay/NextUIOverlay/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\kij\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/mara/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0-windows"
+          "net9.0-windows"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0-windows7.0": {
-            "targetAlias": "net8.0-windows",
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
             "projectReferences": {}
           }
         },
@@ -35,22 +34,27 @@
           ]
         },
         "restoreLockProperties": {
-          "restorePackagesWithLockFile": "true",
-          "nuGetLockFilePath": ""
+          "restorePackagesWithLockFile": "true"
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0-windows7.0": {
-          "targetAlias": "net8.0-windows",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "dependencies": {
             "DalamudPackager": {
               "target": "Package",
-              "version": "[11.0.0, )"
+              "version": "[12.0.0, )"
+            },
+            "DotNet.ReproducibleBuilds": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.25, )"
             },
             "Fleck": {
               "target": "Package",
@@ -72,12 +76,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.3, 9.0.3]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.104/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
